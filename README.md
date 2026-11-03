@@ -17,7 +17,7 @@
 
 ## 🎮 Live Demo
 
-👉 **[Launch Event Loop Gaon](https://claude.ai/artifact/MPKQBZdNk28zYZLtW1xCGF)**
+👉 **[Launch Event Loop Gaon](https://event-loop-gaon-6go8.vercel.app/)**
 
 ## 🌄 Project Preview
 
