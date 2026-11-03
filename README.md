@@ -11,7 +11,22 @@
   <img src="https://img.shields.io/badge/Three.js-r128-black?logo=threedotjs" />
   <img src="https://img.shields.io/badge/Acorn-8.11.3-orange" />
   <img src="https://img.shields.io/badge/Status-Experimental-orange" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
+
+---
+
+## 🎮 Live Demo
+
+👉 **[Launch Event Loop Gaon](https://claude.ai/artifact/MPKQBZdNk28zYZLtW1xCGF)**
+
+## 🌄 Project Preview
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dat8orrws/image/upload/v1793698944/Screenshot_From_2026-11-03_15-09-57.png" alt="Event Loop Gaon - Interactive 3D JavaScript Event Loop Visualizer" width="100%" />
+</p>
+
+<p align="center">
+  <i>A living 3D village where every JavaScript callback has a destination!</i>
 </p>
 
 ---
@@ -24,19 +39,9 @@ Instead of staring at abstract diagrams, you can write your own JavaScript code 
 
 Every function call, timer, Promise callback, and asynchronous operation becomes a visual event inside the village.
 
-The goal is simple:
-
 **Understand JavaScript's Event Loop by watching it happen.**
 
-## 🎮 Live Demo
-
-Explore the village and experiment with JavaScript:
-
-👉 [Launch Event Loop Gaon](https://claude.ai/artifact/MPKQBZdNk28zYZLtW1xCGF)
-
 ## 🏡 The Village — JavaScript Architecture
-
-The entire village represents the JavaScript runtime environment.
 
 | Village Element | JavaScript Concept | What It Represents |
 |---|---|---|
@@ -54,7 +59,7 @@ The entire village represents the JavaScript runtime environment.
 3. Timer operations are delegated to the simulated Web APIs.
 4. Completed timer callbacks enter the Task Queue.
 5. Promise callbacks enter the Microtask Queue.
-6. Once the Call Stack is empty, the Event Loop prioritizes pending microtasks before processing the next task.
+6. Once the Call Stack is empty, the Event Loop processes pending microtasks before the next task.
 7. Chintu travels through the village to visualize each execution step.
 
 ## ✨ Features
@@ -70,7 +75,7 @@ The entire village represents the JavaScript runtime environment.
 
 ### 🌳 Immersive 3D Village
 
-- A fully interactive Three.js environment.
+- Fully interactive Three.js environment.
 - Procedurally generated textures using Canvas.
 - Four uniquely designed village houses.
 - Trees, forests, farms, fences, ponds, and wells.
@@ -96,7 +101,7 @@ The entire village represents the JavaScript runtime environment.
 
 ### ⚙️ Execution Controls
 
-- Visualize: Execute your JavaScript code.
+- Visualize: Execute JavaScript code.
 - Edit Code: Modify your program.
 - Next: Advance one execution step.
 - Auto: Automatically play the execution sequence.
@@ -112,7 +117,7 @@ The entire village represents the JavaScript runtime environment.
 | Three.js r128 | 3D rendering and animations |
 | Acorn 8.11.3 | JavaScript parsing and AST instrumentation |
 | HTML5 | Application structure |
-| CSS3 | UI styling and interface |
+| CSS3 | UI styling |
 | Canvas API | Procedural textures |
 | Web Audio API | Procedural sound effects |
 
@@ -170,8 +175,6 @@ Each step contains:
 - Character movement.
 - Parcel animation.
 - Hinglish explanation.
-
-The result is an interactive representation of JavaScript execution.
 
 ## 💻 Getting Started
 
@@ -242,8 +245,6 @@ Watch Chintu travel between the village buildings as the execution progresses!
 
 This project is an experimental educational simulator, not a complete JavaScript runtime.
 
-Known limitations:
-
 - `fetch()` is not supported.
 - `requestAnimationFrame()` is not supported.
 - `process.nextTick()` is not supported.
@@ -270,8 +271,6 @@ Known limitations:
 - [ ] Improve execution trace debugging.
 
 ## 🎯 Learning Objectives
-
-This project explores several important JavaScript concepts:
 
 - JavaScript Runtime Environment.
 - Call Stack and Execution Context.
@@ -312,4 +311,3 @@ BCA (Honors) Software Engineering Student | Full Stack Developer
 <p align="center">
   ⭐ If you find this project interesting, consider giving it a star!
 </p>
-
